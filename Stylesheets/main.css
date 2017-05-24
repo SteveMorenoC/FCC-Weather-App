@@ -1,0 +1,17 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #000;
+  color: #000; }
+
+.btn:visited {
+  color: white; }
+.btn:hover {
+  color: blue; }
+.btn:active {
+  color: green; }
+.btn-primary {
+  color: yellow; }
+.btn-secondary {
+  color: gray; }
+
+/*# sourceMappingURL=main.css.map */
