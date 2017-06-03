@@ -10,12 +10,16 @@ $(document).ready(function () {
          function (wd) {
             console.log("got the data ,", wd);
             var currentLocation = wd.name;
-            var currentWeather = wd.main[0].description;
+            var currentWeather = wd.weather[0].description;
             var currentTemp = wd.main.temp;
             var high = wd.main.temp_max;
             var low = wd.main.temp_min;
 
             $("#cityName").html(currentLocation);
+            $("#weather").append(currentWeather);
+            $("#temp").append(currentTemp);
+            $("#highs").append(high);
+            $("#lows").append(low);
         })
     })
 
