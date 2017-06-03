@@ -1,12 +1,12 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: #000;
+$primary-color: white;
 $font-size: 15px;
-
+$font-color: black;
 body { 
     font: 100% $font-stack; 
-    background-color: $primary-color;
-    color: $primary-color;
+    background-color: #4c4747;
     font-size: $font-size;
+    color: $font-color;
 }
 
 .btn {
@@ -16,5 +16,13 @@ body {
     &-primary {color: yellow;}
     &-secondary {color: gray;}
 }
-
+.content-body {
+  border-radius:3px;
+  position:relative;
+  margin:10% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+}
 
